@@ -22,10 +22,12 @@ class Card:
         13: "K"
     }
 
-    def __init__(self):
-        pass
+    def __init__(self, suit, value):
+        self.suit = suit
+        self.value = value
+        self.hidden = False
 
     def __str__(self):
-        pass
-
-
+        if self.hidden:
+            return "Unknown"
+        return f"{self.SUIT_SYMBOLS[self.suit]}{self.VALUE_NAMES[self.value]}"
