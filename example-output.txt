@@ -81,4 +81,4 @@ The dealer has: 8♠, 9♥
 The dealer stays.
 The dealer wins, you lose $2000 :(
 
-You've ran out of money. Please restart this program to try again. Goodbye.
+You've ran out of money. Please restart this program to try again. Goodbye..
