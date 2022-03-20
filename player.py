@@ -1,6 +1,7 @@
-class Player:
-    def __init__(self, balance):
-        self.balance = balance
+from dealer import Dealer
 
-    def get_str_hand(self):
-        pass
+
+class Player(Dealer):
+    def __init__(self, balance):
+        super().__init__()
+        self.balance = balance
